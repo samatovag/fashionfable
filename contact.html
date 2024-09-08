@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact us for questions or assistance at Fashion Fable.">
+    <title>Contact Us - Fashion Fable</title>
+</head>
+<body>
+    <header>
+        <h1>Fashion Fable</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="fashion-history.html">Fashion History</a></li>
+                <li><a href="latest-trends.html">Latest Trends of Autumn 2024</a></li>
+                <li><a href="latest-news.html">Latest Fashion News 2024</a></li>
+                <li><a href="style-advice.html">Style Advice</a></li>
+                <li><a href="faq.html">Frequently Asked Questions</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions or need assistance? Reach out to us!</p>
+        <form action="submit-form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Fashion Fable. All rights reserved.</p>
+    </footer>
+</body>
+</html>
